@@ -12,7 +12,7 @@ function showYoungestStudent(std) {
         }
       }
     
-      console.log("The minimum age is " , name , min);
+      console.log("The name of youngest student is " , name ,"and his age ", min);
     }
     showYoungestStudent(students)
 module.exports = showYoungestStudent;
