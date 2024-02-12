@@ -1,4 +1,9 @@
-var students = [{name : 'maryam' , age:23} , {name:'noor ' , age :13} , {name : 'soundos' , age:25} , {name:'hassan' , age : 30}]
+var students =[
+    { name: 'Alice', age: 25 },
+    { name: 'Bob', age: 2 },
+    { name: 'Charlie', age: 21 },
+];
+//var str = []
 function showYoungestStudent(std) {
     if (!std || std.length === 0) {
         console.log("No students provided.");
@@ -16,4 +21,5 @@ function showYoungestStudent(std) {
       console.log(youngestName);
     }
     showYoungestStudent(students)
+   
 module.exports = showYoungestStudent;
